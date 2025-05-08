@@ -1,0 +1,91 @@
+* {
+    margin: 0 0 0 0;
+}
+
+html, body {
+    height: 100%;
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=0a4012&c2=abcaa9&gt=l&gd=dtl
+    */
+    background: #0A4012;
+    background: linear-gradient(135deg, #0A4012, #ABCAA9);
+}
+
+.bar {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(43, 43, 43);
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+nav h2 a {
+    display: flex;
+    padding-left: 30px;
+    font-size: 2rem;
+    color: rgb(194, 194, 194);
+    font-family: "Onest";
+    padding-top: 25px;
+    text-decoration: none;;
+}
+
+nav ul li {
+    display: flex;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    background: #7aa377;
+    /*background: linear-gradient(135deg, #0A4012, #ABCAA9);*/
+    border-radius: 20px;
+    color: rgb(43, 43, 43);
+    height: 36px;
+    text-align: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-family: "Onest";
+}
+
+h1 {
+    text-align: center;
+    padding: 5% 0;
+    font-size: 7rem;
+    font-family: "Onest";
+    color: rgb(43, 43, 43);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    width: 50%;
+    font-family: "Onest";
+    color: rgb(43, 43, 43);
+    font-size: 3rem;
+}
+
+h3 a {
+    color: rgb(43, 43, 43);
+    text-decoration: underline;
+}
